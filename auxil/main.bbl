@@ -96,6 +96,64 @@
       \field{year}{2011}
       \keyw{Fysik}
     \endentry
+    \entry{3D_printable}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c3250748c392380c182d921b5c15585d}{%
+           family={Hamzah},
+           familyi={H\bibinitperiod},
+           given={Hairul\bibnamedelima Hisham},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e2622fb29fb48a2253d1b4d0de6b174}{%
+           family={Shafiee},
+           familyi={S\bibinitperiod},
+           given={Saiful\bibnamedelima Arifin},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97f5f89a9bcaa59aee23768b7b58c906}{%
+           family={Abdalla},
+           familyi={A\bibinitperiod},
+           given={Aya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=456f9ac5b05a096e0366e41cfd03bae4}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Bhavik\bibnamedelima Anil},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c61498bcbf677ede27e711cbeba2c895}
+      \strng{fullhash}{675406a937a4a20a1d58f24eaa99acea}
+      \strng{bibnamehash}{c61498bcbf677ede27e711cbeba2c895}
+      \strng{authorbibnamehash}{c61498bcbf677ede27e711cbeba2c895}
+      \strng{authornamehash}{c61498bcbf677ede27e711cbeba2c895}
+      \strng{authorfullhash}{675406a937a4a20a1d58f24eaa99acea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The review presents recent developments in the use of conductive materials that can be printed using additive manufacturing (3D printing), enabling the development of mass-produced electrochemical sensors of varying geometries. This review will highlight some key electroanalytical applications of 3D-printed electrochemical sensors and discuss their potential future capabilities.}
+      \field{issn}{1388-2481}
+      \field{journaltitle}{Electrochemistry Communications}
+      \field{title}{3D printable conductive materials for the fabrication of electrochemical sensors: A mini review}
+      \field{volume}{96}
+      \field{year}{2018}
+      \field{pages}{27\bibrangedash 31}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.elecom.2018.09.006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1388248118302212
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1388248118302212
+      \endverb
+      \keyw{3D printing,Additive manufacturing,Electrochemistry,Conductive electrode,3D printed electrode,Electrochemical sensor}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

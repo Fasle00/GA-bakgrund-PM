@@ -11,6 +11,8 @@
 ]{biblatex}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[exprot]{adjustbox}
 %Källor
 \addbibresource{references.bib}
 \graphicspath{ {./images/} }
@@ -42,7 +44,52 @@
 \maketitle
 
 \section{Bakgrund}
-Växellådor eller i det här fallet momentomvandlare är något som tar en rotationskraft
+Transmission, också kallad växellåda, är en mekanisk enhet som använder kugghjul för att ändra hastighet och/eller rotationsriktning.
+En transmission kan ha flera olika utväxlingar, men det finns också dom med bara en utväxling.
+Sammansatta transmissionssystem är när man har flera enkla transmissionsenheter sammansatta i en enhet.
+Vridmoment är ett mått på en krafts förmåga att snurra på ett objekt kring en axel.
+Vridmoment beror på både längden av hävarmen och kraften på hävarmen.
+Enheten för vridmoment betecknas ofta i newton meter (Nm).
+Växellådor eller i det här fallet momentomvandlare är något som tar ett vridmoment och ändrar hastigheten och kraften, oftast att man minskar hastigheten och att kraften då blir större.
+En momentomvandlare kan ha olika typer av mekanisk omvandling, det kan vara kugghjulsväxel, planetväxel och snäckväxel mm.
+En kugghjulsväxel fungerar så att ett kugghjul har mer tänder (kuggar) än det andra vilket gör så att om ett hjul snurrar ett varv så har det andra antingen snurrat mer eller mindre än det första.
+En planetväxel är ett sammansatt transmissionssystem som består av kugghjul.
+\begin{figure}[ht]
+    \includegraphics[width=0.8\textwidth]{planetary_gearbox.jpg}
+    \caption{Planetväxel}
+    \label{fig:planet}
+\end{figure}
+
+Det finns tre typer av planetväxlar.
+Varianternas skillnader är vilka av hjulen som snurrar.
+Den variant som kommer undersökas fungerar så att solhjulet är ingången, den som drivs av motorn, planethjulen är sammankopplade av en carrier och är utgången och ringhjulet är stationärt.
+När solhjulet snurrar så kommer planethjulen att gå runt solhjulet och göra så att carriern börjar snurra.
+Efter som att planethjulen inte kan snurra ett helt varv i ringhjulet på ett varv av solhjulet så kommer carriern att ha en lägre hastighet än solhjulet.
+
+En snäckväxel består av två delar, ett kugghjul och en snäckskruv (skruv).
+\begin{figure}[!h]
+    \includegraphics[width=0.8\textwidth]{snäckväxel.jpg}
+    \caption{Snäckväxel}
+    \label{fig:snäck}
+\end{figure}
+
+Den fungerar så att skruven är fäst till ingång och kugghjulet är utgång.
+När man snurrar på skruven så puttar den på kuggarna på kugghjulet vilket gör att den börjar snurra.
+Eftersom att ett varv på skruven inte kommer att putta på alla kuggarna på kugghjulet så kommer kugghjulet snurra långsammare än skruven.
+
+Den typ av tredimensionella (3D) printer som kommer att användas är en typ av maskin som använder tillverkningsprincipen fused filament fabrication (FFF) som är en typ av additiv tillverkning (AM).
+AM är en tillverknings princip där man bygger en del genom att lägga till material.
+FFF, också känd som fused deposition modeling (FDM), är en metod av tillverkning där man har materialet (filament) i form av tråd, som oftast är på en spole. \textcite{3D_printable}
+Metoden går ut på att filamentet går in i matare som trycker vidare filamentet in i en värmare och sen vidare ut genom ett munstycke till på byggplattan.
+\begin{figure}[!h]
+    \includegraphics[width=0.8\textwidth]{3D_Printer_Extruder.png}
+    \caption{Extruder}
+    \label{fig:extruder}
+\end{figure}
+
+Filamentet som används är polylaktid (PLA).
+PLA är en naturligt nedbrytningsbar termoplast.
+PLA tillverkas från förnybara resurser, vanliga råvaror är bland annat rörsocker och majsstärkelse.
 
 Referenser i text kan skrivas på två sätt: Enligt \textcite{} kan man använde två typer av referenser, inbäddade i texten eller ``efter'' ett fakta \parencite{Fraenkel}. Ett till test för att se hur det ser ut \parencite{fermi}.
 
